@@ -1,0 +1,17 @@
+{application, logger_telegram_h, [
+    {description, "Telegram logging handler for Erlang"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        telegram_bot_api
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["MIT"]},
+    {links, [
+        {"GitHub", "https://github.com/krot3232/logger_telegram_h"}
+    ]},
+    {build_tools, ["rebar3"]}
+]}.
